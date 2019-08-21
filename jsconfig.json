@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "system/*": ["./src/system/*"],
+      "theme/*": ["./src/theme/*"],
+      "components/*": ["./src/components/*"],
+      "blocks/*": ["./src/blocks/*"],
+      "hooks/*": ["./src/hooks/*"],
+      "templates/*": ["./src/templates/*"],
+      "utils/*": ["./src/utils/*"],
+      "img/*": ["./src/img/*"]
+    }
+  },
+  "exclude": ["node_modules", "public", ".cache"]
+}
